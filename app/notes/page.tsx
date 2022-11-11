@@ -2,7 +2,7 @@ import Link from 'next/link';
 import pocketBase from 'pocketbase';
 import React from 'react';
 import styles from '../notes/Note.module.css';
-import CreateNote from './createNote';
+import CreateNote from './CreateNote';
 
 export const dynamic = 'auto',
   dynamicParams = true,

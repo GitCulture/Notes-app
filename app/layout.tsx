@@ -11,6 +11,7 @@ export default function layout({ children }: { children: React.ReactNode }) {
           <nav>
             <Link href="/">Home</Link>
             <Link href="/notes">Notes</Link>
+            <Link href="/products">Products</Link>
           </nav>
           {children}
         </main>
